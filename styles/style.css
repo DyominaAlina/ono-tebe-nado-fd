@@ -1,6 +1,6 @@
 .header {
   display: grid;
-  grid-template-columns: (1fr min-content 1fr);
+  grid-template-columns: 1fr min-content 1fr;
   padding: 92px 50px 96px 50px;
   align-items: center;
   font-size: 18px;
@@ -83,10 +83,6 @@
 .cover_title-right {
   text-align: right;
   margin-right: -0.3em;
-}
-
-.cover_title-right :last-child {
-  letter-spacing: 0;
 }
 
 .description {
